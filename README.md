@@ -17,7 +17,6 @@
 - Advanced CSS (flexbox, grid, media queries) ✅
 - Responsive design ✅ and CSS frameworks (SASS, Tailwind) ❌
  ![alt text](image.png)
-- responive design ✅
  ![alt text](image-1.png)
 
 ## Week 2:
