@@ -117,3 +117,21 @@ let array4 = array1.map(e=>{
     return e**2
 })
 console.log(array4);
+
+
+console.log(array4.filter(e=>{
+    if( e > 10){
+        return true;
+    }
+    else{
+        return false;
+    }
+}));
+
+console.log(array4.reduce((a,b)=>{
+    return a+b;
+}))
+
+//To convert any object in to an array we use from method
+let array5 = Array.from(array1)
+console.log(array5);
