@@ -113,25 +113,44 @@ let array2 = [6,7,8,9,10];
 //     }
 // }
 
-let array4 = array1.map(e=>{
-    return e**2
-})
-console.log(array4);
+// let array4 = array1.map(e=>{
+//     return e**2
+// })
+// console.log(array4);
 
 
-console.log(array4.filter(e=>{
-    if( e > 10){
-        return true;
-    }
-    else{
-        return false;
-    }
-}));
+// console.log(array4.filter(e=>{
+//     if( e > 10){
+//         return true;
+//     }
+//     else{
+//         return false;
+//     }
+// }));
 
-console.log(array4.reduce((a,b)=>{
-    return a+b;
-}))
+// console.log(array4.reduce((a,b)=>{
+//     return a+b;
+// }))
 
-//To convert any object in to an array we use from method
-let array5 = Array.from(array1)
-console.log(array5);
+// //To convert any object in to an array we use from method
+// let array5 = Array.from(array1)
+// console.log(array5);
+
+// console.log(array1)
+
+//Finding the Factorials using Reduce and for loops only
+
+let number = 5;
+// let array6 = [];
+// for ( let i = 0 ; i<=number; i++){
+//     array6 [i] = i
+// }
+// console.log(array6.reduce((a,b)=>{
+//     return a*b;
+// }))
+
+// let array6 = Array.from(Array(number+1).keys())
+// array6 = array6.slice(1,array6.length);
+// let c = array6.reduce((a,b)=> a*b)
+// console.log(array6);
+// console.log(c);
