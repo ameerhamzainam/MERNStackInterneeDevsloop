@@ -154,3 +154,119 @@ let number = 5;
 // let c = array6.reduce((a,b)=> a*b)
 // console.log(array6);
 // console.log(c);
+
+// Type converstions
+
+// let x = "1";
+// console.log(typeof(x))
+// let y = +x;
+// // console.log(typeof(y))
+
+// let z = "name";
+// let m = +z;
+// // console.log(m)
+
+let x = 17.99999;
+// console.log(typeof(x));
+// console.log(typeof(String(12+3)));
+// console.log(typeof(1+2))
+// console.log(typeof(String(x)))
+
+// console.log(typeof(x.toString()))
+
+// console.log(x.toExponential())s
+// console.log(typeof(x.toFixed()))
+// console.log(x.toPrecision(5))
+
+// let d = new Date;
+// console.log(Number(d));
+// console.log(d.getTime());
+// console.log(d.toString());
+// console.log(d.getDay());
+// console.log(d.getMinutes());
+// console.log("Time Now is :", +d.getHours() +":" +d.getMinutes());
+
+let marks = 26;
+let totalMarks = 50;
+
+let Percentage = 0;
+// let Grade = "";
+
+// if(marks === 0 ){
+//     console.log("Failed");
+// }
+// else{
+//     Percentage = ( marks * 100  ) / totalMarks;
+//     console.log("Percentage is :", + Percentage);
+//     if( Percentage > 50){
+//         console.log("Candidate has passed the Exam");
+//     }
+//     else{
+//     console.log("Failed");
+
+//     }
+// }
+
+// marks  === 0  ? console.log("Failed") : Percentage = ( marks * 100  ) / totalMarks, Percentage > 50 ?  console.log("Candidate has been Pass"): console.log("Failed")
+
+// let xray = 5;
+
+// function somefunction(){
+//     console.log(xray);
+//     let yray=6;
+// }
+// somefunction();
+// console.log(xray);
+// console.log(yray)
+
+//  function some(){
+//     console.log(var1);
+
+// }
+// some();
+// var var1 = 5; // Hositing only applicable on Var, not on the let and const variable type
+
+// lets do the IIFE functions
+
+// (function(){
+//     console.log("Hellow")
+// })();
+
+// (()=>{
+//     console.log("hI")
+// })()
+
+let multi = [ 0,1,2,3,4,5,[6,7,8,9]]
+// console.log(multi);
+// multi.unshift(10);
+// console.log(multi);
+// console.log(multi.indexOf(2));
+// console.log(multi.includes(100));
+
+// multi.forEach(element => {
+//    console.log(element*2);
+// });
+// // console.log(multi)
+
+let person = {
+    status:"Employee",
+    name:"Ameer Hamza",
+    age:24,
+    address:{
+        street:"xyz",
+        colony:"xyz",
+        city:"xyz"
+    }
+}
+// console.log(person.address.colony);
+// console.log(Object.keys(person));
+// let nameGen = Object.keys(person)
+// console.log(nameGen.toString())
+// console.log(nameGen.address);
+// console.log(Object.keys(person.address))
+// console.log(Object.values(person.address))
+console.log(Object.entries(person.address))
+// console.log(Object.values(person.address))
+console.log(Object.assign(person.address))
+
+

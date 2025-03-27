@@ -1,1 +1,1 @@
-console.log(array1)
+console.log(xray);
