@@ -8,9 +8,8 @@
 - Execution Control and flow
 ### Exercise:
  Create interactive web elements and simple web apps using APIs. ✅
-![alt text](Pikachu.png)
-![alt text](Charizard.png)
-![alt text](Bulbasaur.png)
+![alt text](Pokemons.gif)
+
 ## Week 2:
 ### Topics:
 - JavaScript fundamentals: data types (Primitives), variables, scope, functions, loops ✅
@@ -22,7 +21,8 @@
 Write functions for array manipulation ✅ and DOM interaction. ✅
 
 ![alt text](YoutubeCard.png)
-![alt text](ColorBoxes.png)
+![alt text](ColorBoxes.gif)
+
 
 ## Weeks 1 (HTML and CSS):
 ### Topics:(HTML) 2 days
