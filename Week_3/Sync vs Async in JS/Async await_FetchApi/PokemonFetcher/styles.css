@@ -1,0 +1,38 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid;
+    justify-items: center;
+    align-content: center;
+    background-color: antiquewhite;
+}
+#pokemon-name-image1{
+    display: none;
+    /* border: 2px solid; */
+    text-decoration: none;
+    object-fit: fill;
+    width: 200px;
+    height: 200px;
+}
+#pokemon-name-image2{
+    display: none;
+    /* border: 2px solid; */
+    text-decoration: none;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+
+}
+#pokemon-name{
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+.button{
+    display: flex;
+    margin-top: 2px;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 5px 20px;
+
+    /* border: none; */
+}
