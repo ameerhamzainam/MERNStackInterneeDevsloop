@@ -42,6 +42,5 @@ Write functions for array manipulation ✅ and DOM interaction. ✅
 - Responsive design ✅ and CSS frameworks (SASS, Tailwind) ❌
  ### Exercises:
  Add responsive styling to previous HTML exercises. ✅
- ![alt text](Rewritely.png)
- ![alt text](RewritelyM.png)
- ![alt text](RewritelyS.png)
+ ![alt text](Rewritely.gif)
+ 
