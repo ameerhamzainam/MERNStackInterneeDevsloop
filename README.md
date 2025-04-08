@@ -1,4 +1,13 @@
 ﻿# MERNStackInterneeDevsloop
+## week 4:
+- Classes, OOP principles( inheritance,  encapsulation, abstraction, polyorphyism),  Functional programming Constructor Functions,  Factory Functions
+- Inheritance in Javascript
+- Closures
+- Lexical scope
+- Hoisting
+- Coercion
+- This (this.something)   Keyword in javascript and its nightmares
+- Immutability
 
 ## week 3:
 - DOM manipulation and event handling ✅
