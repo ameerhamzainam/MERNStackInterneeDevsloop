@@ -18,6 +18,8 @@
 ### Exercise:
  Create interactive web elements and simple web apps using APIs. ✅
 ![alt text](Pokemons.gif)
+![alt text](hackingsimulator.gif)
+
 
 ## Week 2:
 ### Topics:
