@@ -1,4 +1,4 @@
-﻿# MERNStackInterneeDevsloop
+﻿# MERN-Stack Internship Devsloop
 ## week 4:
 - Classes, OOP principles( inheritance,  encapsulation, abstraction, polyorphyism),  Functional programming Constructor Functions,  Factory Functions
 - Inheritance in Javascript

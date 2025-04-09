@@ -1,4 +1,11 @@
-const AsaanAccount2 =  new BankAccount(5000);
-// AsaanAccount2.display();
-// AsaanAccount1.deposit(19000);
-// AsaanAccount1.display;
+const team = {
+//     name: "CodeSquad",
+//     members: ["Alice", "Bob", "Hamza"],
+//     printMembers: function () {
+//       this.members.forEach(function (member) {
+//         console.log(`${member} is in ${this.name}`);
+//       });
+//     }
+//   };
+  
+//   team.printMembers(); // ❌ 'this.name' is undefined (function inside method)
