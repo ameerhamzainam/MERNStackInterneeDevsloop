@@ -1,8 +1,8 @@
 ﻿# MERN-Stack Internship Devsloop
 ## Week 5:
-- Typescript
-- Error handling, debugging techniques
-- Introduction to JSON and using external APIs
+- Typescript ⚠️
+- Error handling, debugging techniques ✅
+- Introduction to JSON and using external APIs ✅
 ### Exercises:
 - Build a small project utilizing an API and handle errors.
 
