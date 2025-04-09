@@ -1,20 +1,27 @@
 ﻿# MERN-Stack Internship Devsloop
+## Week 5:
+- Typescript
+- Error handling, debugging techniques
+- Introduction to JSON and using external APIs
+### Exercises:
+- Build a small project utilizing an API and handle errors.
+
 ## week 4:
-- Classes, OOP principles( inheritance,  encapsulation, abstraction, polyorphyism),  Functional programming Constructor Functions,  Factory Functions
-- Inheritance in Javascript
-- Closures
-- Lexical scope
-- Hoisting
-- Coercion
-- This (this.something)   Keyword in javascript and its nightmares
-- Immutability
+- Classes ✅, OOP principles( inheritance,  encapsulation, abstraction, polyorphyism)✅, Functional programming ✅, Constructor Functions✅, Factory Functions✅
+- Inheritance in Javascript✅
+- Closures✅
+- Lexical scope✅
+- Hoisting✅
+- Coercion✅
+- This (this.something)   Keyword in javascript and its nightmares ✅
+- Immutability✅
 
 ## week 3:
 - DOM manipulation and event handling ✅
 - Advanced ES6+ features (destructuring, template literals, spread operator, rest operator, Optional Chaining Operator, Nullish Coalescing Operator) ✅
 - Sync vs Async JavaScript (callbacks, promises, async/await/Fetch API) ✅
-- Event Loop
-- Execution Control and flow
+- Event Loop ✅
+- Execution Control and flow ✅
 ### Exercise:
  Create interactive web elements and simple web apps using APIs. ✅
 ![alt text](Pokemons.gif)
