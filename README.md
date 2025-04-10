@@ -4,7 +4,7 @@
 - Error handling, debugging techniques ✅
 - Introduction to JSON and using external APIs ✅
 ### Exercises:
-- Build a small project utilizing an API and handle errors.
+- Build a small project utilizing an API and handle errors.✅
 
 ## week 4:
 - Classes ✅, OOP principles( inheritance,  encapsulation, abstraction, polyorphyism)✅, Functional programming ✅, Constructor Functions✅, Factory Functions✅
