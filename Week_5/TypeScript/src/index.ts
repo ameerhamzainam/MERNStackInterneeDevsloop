@@ -100,6 +100,90 @@ let employee1 :{
 // console.log(employee);
 employee1.age = 24; 
 
+type worker = {
+    readonly id:number,
+    name:string,
+    income:number,
+    getwage:(hours: number) => number
+}
+
+
+const worker1 : worker = {
+    id:1,
+    name:"AmeerHamza",
+    income: 1000,
+    getwage: function (hours : number ) : number {
+        return hours * this.income;
+    } 
+}
+const pay1 = worker1.getwage(5);
+console.log(pay1);
+
+//Union Types
+console.log("=====================================");
+
+type Converter = {
+    name: string;
+    wieght: number | string;
+    kgsTolbs: (wieght: number | string) => number;
+};
+
+let person1: Converter = {
+    name: "",
+    wieght: 0,
+    kgsTolbs: function ( wieght: number | string): number {
+
+        if (typeof wieght === "string") {
+            // Remove "kg" or any non-numeric characters if user types "80kg"
+            return 2.20462 * (parseFloat(wieght));
+        }
+        return wieght * 2.20462;
+    }
+};
+
+const getwieght1 = person1.kgsTolbs(80);
+const getwieght2 = person1.kgsTolbs("80kg");
+
+console.log(`Person ${person1.name} has the wieght ${getwieght1}`);
+console.log(`Person ${person1.name} has the wieght ${getwieght2}`);
+
+console.log("**********************************************");
+//Intersection
+
+type User = {
+    name:string,
+    email:string
+}
+type Admin = {
+    role:string,
+    accessLevel: number
+}
+type HigherRank = User & Admin & {
+    displaydetails : (name:string,email:string,role:string,accessLevel:number) => string
+}
+
+const Person2 : HigherRank = {
+    name: '',
+    email:'',
+    role:'',
+    accessLevel:0,
+    displaydetails: function(name: string, email: string, role: string, accessLevel: number): string {
+        this.name = name;
+        this.email = email;
+        this.role = role;
+        this.accessLevel = accessLevel;
+        return `The ${this.name} has ${this.role} role with the access level of ${this.accessLevel}`;
+    }
+}
+
+const result = Person2.displaydetails("AmeerHamza","xyz@gmail.com","admin",5);
+console.log(result);
+
+  
+
+
+
+
 
 
 

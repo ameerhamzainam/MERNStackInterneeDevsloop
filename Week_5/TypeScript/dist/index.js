@@ -50,5 +50,56 @@ let employee = {
     name: "Ameer Hamza",
     // age: 24
 };
-console.log(employee);
+// console.log(employee);
+employee.age = 24;
+let employee1 = {
+    id: 1,
+    name: "Ameer Hamza",
+    age: 0
+};
+// console.log(employee);
+employee1.age = 24;
+const worker1 = {
+    id: 1,
+    name: "AmeerHamza",
+    income: 1000,
+    getwage: function (hours) {
+        return hours * this.income;
+    }
+};
+const pay1 = worker1.getwage(5);
+console.log(pay1);
+//Union Types
+console.log("=====================================");
+let person1 = {
+    name: "",
+    wieght: 0,
+    kgsTolbs: function (wieght) {
+        if (typeof wieght === "string") {
+            // Remove "kg" or any non-numeric characters if user types "80kg"
+            return 2.20462 * (parseFloat(wieght));
+        }
+        return wieght * 2.20462;
+    }
+};
+const getwieght1 = person1.kgsTolbs(80);
+const getwieght2 = person1.kgsTolbs("80kg");
+console.log(`Person ${person1.name} has the wieght ${getwieght1}`);
+console.log(`Person ${person1.name} has the wieght ${getwieght2}`);
+console.log("**********************************************");
+const Person2 = {
+    name: '',
+    email: '',
+    role: '',
+    accessLevel: 0,
+    displaydetails: function (name, email, role, accessLevel) {
+        this.name = name;
+        this.email = email;
+        this.role = role;
+        this.accessLevel = accessLevel;
+        return `The ${this.name} has ${this.role} role with the access level of ${this.accessLevel}`;
+    }
+};
+const result = Person2.displaydetails("AmeerHamza", "xyz@gmail.com", "admin", 5);
+console.log(result);
 //# sourceMappingURL=index.js.map
