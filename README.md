@@ -1,6 +1,15 @@
-﻿# MERN-Stack Internship Devsloop
+﻿
+# MERN-Stack Internship Devsloop
+## Weeks 6-9 (React):
+## Week 6:
+### Topics:
+- React introduction: JSX, components, state vs props
+- Lifecycle methods, React hooks (useState, use effect), custom hooks
+### Exercises:
+- Build a small React app with a dynamic state.
+
 ## Week 5:
-- Typescript ⚠️
+- Typescript ⚠️ ( onGoing )
 - Error handling, debugging techniques ✅
 - Introduction to JSON and using external APIs ✅
 ### Exercises:
