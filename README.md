@@ -7,7 +7,8 @@
 - Lifecycle methods, React hooks (useState, use effect), custom hooks
 ### Exercises:
 - Build a small React app with a dynamic state.
-
+![alt text](useStateForm.gif)
+![alt text](useStateLikeBUtton.gif)
 ## Week 5:
 - Typescript ⚠️ ( onGoing )
 - Error handling, debugging techniques ✅
