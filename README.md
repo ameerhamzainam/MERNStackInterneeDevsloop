@@ -8,7 +8,8 @@
 ### Exercises:
 - Build a small React app with a dynamic state.
 ![alt text](useStateForm.gif)
-![alt text](useStateLikeBUtton.gif)
+![alt text](useStateLikeButton.gif)
+
 ## Week 5:
 - Typescript ⚠️ ( onGoing )
 - Error handling, debugging techniques ✅
@@ -72,3 +73,6 @@ Write functions for array manipulation ✅ and DOM interaction. ✅
  Add responsive styling to previous HTML exercises. ✅
  ![alt text](Rewritelygif.gif)
  
+
+
+[def]: useStateLikeBUtton.gif
