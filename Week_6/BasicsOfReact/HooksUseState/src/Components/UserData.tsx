@@ -2,7 +2,7 @@ import React, { useState, useEffect } from'react';
 import axios from 'axios';
 
 function UserData( ) {
-  const [users, setUsers] = useState<{ id: number; name: string }[]>([]);  //expression
+  const [users, setUsers] = useState<{ id: number; name: string }[]>([]);  //expression for type script + empty array as default
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
