@@ -1,4 +1,5 @@
-// useLocalStorage.js
+// This is a custom Hook
+
 import { useState, useEffect } from 'react';
 
 function useLocalStorage(key : any , initialValue : any) {
