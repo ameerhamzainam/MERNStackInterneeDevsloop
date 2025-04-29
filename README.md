@@ -21,8 +21,8 @@
 - Lifecycle methods✅, React hooks (useState, use effect)✅, custom hooks > DarkTheme using LocalStorage✅
 ### Exercises:
 - Build a small React app with a dynamic state.
-![alt text](useStateForm.gif)
-![alt text](useStateLikeButton.gif)
+![alt text](./assets/useStateForm.gif)
+![alt text](./assets/useStateLikeButton.gif)
 
 ## Week 5:
 - Typescript ⚠️ ( onGoing )
@@ -49,8 +49,8 @@
 - Execution Control and flow ✅
 ### Exercise:
  Create interactive web elements and simple web apps using APIs. ✅
-![alt text](Pokemons.gif)
-![alt text](hackingsimulator.gif)
+![alt text](./assets/Pokemons.gif)
+![alt text](./assets/hackingsimulator.gif)
 
 
 ## Week 2:
@@ -63,8 +63,8 @@
 ### Exercises:
 Write functions for array manipulation ✅ and DOM interaction. ✅
 
-![alt text](YoutubeCard.png)
-![alt text](ColorBoxes.gif)
+![alt text](./assets/YoutubeCard.png)
+![alt text](./assets/ColorBoxes.gif)
 
 
 ## Weeks 1 (HTML and CSS):
@@ -76,8 +76,8 @@ Write functions for array manipulation ✅ and DOM interaction. ✅
 - DOM introduction and basics ✅
 ### Exercises:
  Build pages with proper layout, forms, and semantic tags.✅
- ![alt text](Login.png)
- ![alt text](SimpleNav.png)
+ ![alt text](./assets/Login.png)
+ ![alt text](./assets/SimpleNav.png)
 
 ### Topics: (CSS) 3 days
 - CSS basics (selectors, box model) ✅
@@ -85,8 +85,5 @@ Write functions for array manipulation ✅ and DOM interaction. ✅
 - Responsive design ✅ and CSS frameworks (SASS, Tailwind) ❌
  ### Exercises:
  Add responsive styling to previous HTML exercises. ✅
- ![alt text](Rewritelygif.gif)
+ ![alt text](./assets/Rewritelygif.gif)
  
-
-
-[def]: useStateLikeBUtton.gif
