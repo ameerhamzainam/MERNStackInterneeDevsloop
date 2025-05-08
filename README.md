@@ -1,20 +1,24 @@
 ﻿
 # MERN-Stack Internship Devsloop
-## Weeks 6-9 (React):
+## Week 9-? (NEXTJS)
+### Week 9:
+
+
+## Weeks 6-8 (React):
 ## Week 8:
 ### Topics:
 - React Router for navigation, managing forms in React
 - Server-side rendering and introduction to state management with Context API
 ### Exercises:
 - Create a React app with multiple pages and Form management.
-
+![alt text](./assets/UseRef.gif.gif)
 ## Week 7:
 ### Topics:
 - Advanced component patterns: Higher order Components ✅, props drilling ( leads to week 8 and will work there ) ✅
 - Pure components ✅, smart/dumb components✅ , (Redux Toolkit, Persist in ReduxToolkit, RTK Query ) ⚠️ (Skipped for now)
 ### Exercises:
 - Build a multi-component app with optimized data flow.✅
-
+![alt text](./assets/TaskManager.gif)
 ## Week 6:
 ### Topics:
 - React introduction: JSX ✅, components ✅, state vs props✅
