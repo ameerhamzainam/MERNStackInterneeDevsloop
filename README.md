@@ -11,7 +11,7 @@
 - Server-side rendering and introduction to state management with Context API
 ### Exercises:
 - Create a React app with multiple pages and Form management.
-![alt text](./assets/UseRef.gif.gif)
+![alt text](./assets/UseRef.gif)
 ## Week 7:
 ### Topics:
 - Advanced component patterns: Higher order Components ✅, props drilling ( leads to week 8 and will work there ) ✅
