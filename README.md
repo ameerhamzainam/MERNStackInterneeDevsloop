@@ -1,7 +1,12 @@
 ﻿
 # MERN-Stack Internship Devsloop
-## Week 9-? (NEXTJS)
+## Week 10-? (NEXTJS)
 ### Week 9:
+## Final project week (complete React project with state management)
+- Feedback and additional practice on weaker areas
+- NextJS Introduction and Basics, Folder Structure
+- Exercises:
+- Complete React project involving dynamic data and routing.
 
 
 ## Weeks 6-8 (React):
